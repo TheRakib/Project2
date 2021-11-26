@@ -57,6 +57,14 @@ function renderTable(tableId, tableHeaderArray, data){
         dataRow.appendChild(col2);
         table.appendChild(dataRow);
     });
+    
+    const summa= 0
+    income.forEach( (singleIncome)=> {
+        
+      summa. +=  Number(singeIncome.amount)
+    }) 
+    
+    // document.querySelector("välj nån element där du vill skriva ut summan").textContent = summa
 
 }
 //Tar bort alla html child elements från parent element
